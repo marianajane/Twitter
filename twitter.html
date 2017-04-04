@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Twuyther</title>
+	<link rel="icon" type="image/png" href="twinky.png" />
+</head>
+<body background="fondoazul.jpg">
+<font color="white" face="helvetica" align="left">
+<h1>Twuyther</h1>
+	<section>
+		<td><textarea rows=5 cols=70 name="comentarios" id="articulo" placeholder="Escribe aquí..." onkeydown="contar();"></textarea></td>
+		<input type="text" id="autor">
+		<input disabled size="3" value="140" id="contador"> /140
+		<button type="submit" onclick="agregarTextos();">Enviar</button>
+	</section>
+		<h2>Twuyther stories</h2>
+	<section id="newText">
+	</section>
+	<script type="text/javascript" src="assets/js/twitter.js"></script>
+</body>
+</html>
